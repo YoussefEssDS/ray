@@ -735,6 +735,4 @@ def test_zero_copy_fusion_eliminate_build_output_blocks(
 if __name__ == "__main__":
     import sys
 
-    import pytest
-
     sys.exit(pytest.main(["-v", __file__]))
